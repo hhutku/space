@@ -13,6 +13,13 @@ function nasaImageSearch() {
         method: 'GET',
         dataType: 'json',
 
+        error: function(){
+          
+            $(`#card-${i}`).find(".tile__title").text("Sorry! There is no information with this reseached input!");
+            $(`#card-${i}`).find(".tile__subtitle").text("");
+            $(`#card-${i}`).find(".card-image").children().attr("src", "");
+        }
+
     }).then(function (response) {
 
         if (!response.collection.metadata.total_hits == 0) {

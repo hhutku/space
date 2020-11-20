@@ -21,6 +21,8 @@ function wikiContent(searchWord){
         console.log(response);
  
         $('#projectname').text(response.displaytitle);
+        $('#projectname').attr("style","font-size:40px");
+
         $('#projectname').next().text(response.extract);
     });
     $('input[type="text"]').val("");
@@ -37,7 +39,7 @@ $.ajax({
 }).then(function(response2) {
     console.log(response2);
    
-    // $('#pic-od').find('.card-image').attr("style","background-image: url("+response2.url+")");
+   
     $('#pic-od').find('.card-image').children().attr("src",response2.url);
 
     $('#pic-od').find('.card-image img').attr("style","height:500px");

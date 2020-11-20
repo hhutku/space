@@ -30,7 +30,7 @@ function nasaImageSearch() {
                 var links = response.collection.items[i].links[0].href;
                 var date = response.collection.items[i].data[0].date_created;
                 
-                $(`#card-${i}`).find(".tile__title").text(title);
+                $(`#card-${i}`).find(".tile__title").text(title.substring(0, 55));
                
                 $(`#card-${i}`).find(".tile__subtitle").text(date.substring(0, 10));
 

@@ -7,7 +7,15 @@ function wikiContent(searchWord){
 
     $.ajax({
         url: wikiURL,
-        method: "GET"
+        method: "GET",
+
+        error: function(){
+          
+            $('#projectname').text("Wikipedia");
+            $('#projectname').next().text("Sorry! There is no information with this searched input!");
+        }
+
+
     }).then(function(response) {
         console.log("wiki");
         console.log(response);

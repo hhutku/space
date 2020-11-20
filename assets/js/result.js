@@ -1,7 +1,7 @@
 
 var url = "https://images-api.nasa.gov/search?q=";
-
 $('div[class="results grid-r-3 grid-c-8"]').attr("style", "display:none");
+
 
 var noResult = false;
 
@@ -16,11 +16,12 @@ function nasaImageSearch() {
     }).then(function (response) {
 
         if (!response.collection.metadata.total_hits == 0) {
+         
             wikiContent($('input[type="text"]').val());
 
             $('div[class="results grid-r-3 grid-c-8"]').attr("style", "display:block");
 
-            //  $('.no-results').attr("style", "display:none");
+            
             $('.wall').empty();
             $('.wall').hide();
              noResult = false;
@@ -44,7 +45,7 @@ function nasaImageSearch() {
 
         else {
             $('div[class="results grid-r-3 grid-c-8"]').attr("style", "display:none");
-            wikiContent($('input[type="text"]').val());
+            
             if (!noResult) {
                 
                 $('.welcome').append('<div  class="wall"></div>');

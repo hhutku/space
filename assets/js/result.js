@@ -5,6 +5,8 @@ $('div[class="results grid-r-3 grid-c-8"]').attr("style", "display:none");
 
 var noResult = false;
 
+
+
 function nasaImageSearch() {
     $.ajax({
         url: url + $('input[type="text"]').val(),
@@ -18,8 +20,10 @@ function nasaImageSearch() {
 
             $('div[class="results grid-r-3 grid-c-8"]').attr("style", "display:block");
 
-            $('.no-results').attr("style", "display:none");
-            noResult = false;
+            //  $('.no-results').attr("style", "display:none");
+            $('.wall').empty();
+            $('.wall').hide();
+             noResult = false;
 
             console.log("responseeeeee");
             console.log(response);
@@ -40,14 +44,15 @@ function nasaImageSearch() {
 
         else {
             $('div[class="results grid-r-3 grid-c-8"]').attr("style", "display:none");
-
+            wikiContent($('input[type="text"]').val());
             if (!noResult) {
-
-                $('.welcome').append('<div  class="no-results grid-c-8 grid-r-3"><h1><b>No Results Found!</b></h1></div>');
+                
+                $('.welcome').append('<div  class="wall"></div>');
+                $('.wall').append('<div  class="no-results grid-c-8 grid-r-3"><h1><b>No Results Found!</b></h1></div>');
 
                 $('.no-results h1').attr("style", "color:rgb(110, 8, 8)");
                 $('.no-results').attr("style", "padding:20px;margin-top:15px");
-
+                
                 noResult = true;
             }
         }

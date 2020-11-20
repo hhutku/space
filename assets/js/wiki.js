@@ -46,6 +46,8 @@ $.ajax({
     $('#pic-od').find('.card-image').attr("onclick","window.open('"+response2.url+"')");
 
     $('#pic-od').find('.tile__container').text(response2.title);
+    $('#pic-od').find('.tile__container').attr("style","font-size:20px");
+
     $('#pic-od').find('.tile__container').parent().next().text(response2.explanation);
 
     $(".card-footer").text(response2.date);

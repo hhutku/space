@@ -15,7 +15,7 @@ function wikiContent(searchWord){
         $('#projectname').text(response.displaytitle);
         $('#projectname').next().text(response.extract);
     });
-
+    $('input[type="text"]').val("");
 }
 var today = moment().format("YYYY-MM-DD");
 
@@ -31,8 +31,8 @@ $.ajax({
    
     // $('#pic-od').find('.card-image').attr("style","background-image: url("+response2.url+")");
     $('#pic-od').find('.card-image').children().attr("src",response2.url);
+
     $('#pic-od').find('.card-image img').attr("style","height:500px");
- 
     $('#pic-od').find('.card-image').attr("onclick","window.open('"+response2.url+"')");
 
     $('#pic-od').find('.tile__container').text(response2.title);

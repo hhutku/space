@@ -7,6 +7,7 @@
 "./nasaPhotos/butters_on_mars.jpg"];
 
 
+
 var lastfavPhotos = favPhotos;
 
 if (!localStorage.getItem("lastFavPhotos")) {
@@ -50,3 +51,18 @@ function displayFavPhotos() {
 
 }
 
+
+$("#search-btn").click(function() {
+   
+    $('html, body').animate({
+        scrollTop: $("#search-btn").offset().top
+    }, 1500);
+});
+
+
+// <div class="nav-item text-center"> <a href="https://www.solarsystemscope.com/">
+
+// <div class="nav-item text-center" > <a href="#" onclick="window.open('https://www.solarsystemscope.com/')" >
+
+    // $('.nav-item text-center').children().attr("href","#");
+    // $('.nav-item text-center').children().attr("onclick","window.open('https://www.solarsystemscope.com/')");

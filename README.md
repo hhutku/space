@@ -11,8 +11,6 @@ NASA Image Search Engine is a responsive web app that displays images and inform
 Users can then hover over their result images and click one of the heart buttons to add it to a list of favorite images. This is connected to local storage and will be saved even if the user refreshes.
 
 
-
-
 ---
 
 ## Table of Contents
@@ -25,12 +23,6 @@ Users can then hover over their result images and click one of the heart buttons
 
 ---
 
-## Installation
-
-1. Clone the Github Repository [here](https://github.com/Am-White/ProjectUno).
-2. Open index.html in browser.
-
----
 
 ## Usage
 * Visit the deployed app: [NASA Search Engine](https://hhutku.github.io/space/)

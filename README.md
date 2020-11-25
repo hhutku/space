@@ -39,10 +39,6 @@ Users can then hover over their result images and click one of the heart buttons
     3. Bonus: Find hidden "Easter Egg button" and be transported toa super cool interactive space website to learn more.
 
 
-* Visit Github to track changes that were made or to clone the repo: [Github Repo](https://github.com/Am-White/ProjectUno).
-
-
-
 ## Collaborators
 Front end developers:
 Amethyst White, and Chetan Sekhon.

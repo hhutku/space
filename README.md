@@ -33,7 +33,7 @@ Users can then hover over their result images and click one of the heart buttons
 ---
 
 ## Usage
-* Visit the deployed app: [NASA Search Engine](https://am-white.github.io/ProjectUno/)
+* Visit the deployed app: [NASA Search Engine](https://hhutku.github.io/space/)
     1. Enter word related to space into search area and press the "Search" button to show results.
     2. View Images displayed in the result cards, and click on the heart button to save that image to your local storage.
     3. Bonus: Find hidden "Easter Egg button" and be transported toa super cool interactive space website to learn more.
@@ -42,24 +42,6 @@ Users can then hover over their result images and click one of the heart buttons
 * Visit Github to track changes that were made or to clone the repo: [Github Repo](https://github.com/Am-White/ProjectUno).
 
 
-
----
-
-## Images
-
-![App On Window Load]()
-![Picture of the Day]()
-![Result cards and Favorite Button]()
-![Favorite Images]()
-
-
-
----
-
-## Credits
-Thank you to Jamey Gronewald for the README template, and thank you to Anothony Brown for all of the knowledge given to be able to produce this first project.
-
----
 
 ## Collaborators
 Front end developers:

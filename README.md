@@ -10,7 +10,10 @@ NASA Image Search Engine is a responsive web app that displays images and inform
 
 Users can then hover over their result images and click one of the heart buttons to add it to a list of favorite images. This is connected to local storage and will be saved even if the user refreshes.
 
+## Images
 
+![image of app](./assets/utils/s1.jpg)
+![image of app](./assets/utils/s1.jpg)
 
 
 ## Usage
@@ -27,5 +30,5 @@ Amethyst White, and Chetan Sekhon.
 Back end developers:
 Frederick Thomas, Hasan Utku, AND Yuwen Yu
 
----
+
 

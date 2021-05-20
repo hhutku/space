@@ -17,7 +17,7 @@ Users can then hover over their result images and click one of the heart buttons
 
 
 ## Usage
-* Visit the deployed app: [NASA Search Engine](https://hhutku.github.io/space/)
+Visit the deployed app: [NASA Search Engine](https://hhutku.github.io/space/)
     1. Enter word related to space into search area and press the "Search" button to show results.
     2. View Images displayed in the result cards, and click on the heart button to save that image to your local storage.
     3. Bonus: Find hidden "Easter Egg button" and be transported toa super cool interactive space website to learn more.

@@ -22,6 +22,9 @@ Users can then hover over their result images and click one of the heart buttons
     2. View Images displayed in the result cards, and click on the heart button to save that image to your local storage.
     3. Bonus: Find hidden "Easter Egg button" and be transported toa super cool interactive space website to learn more.
 
+## Technologies
+JQuery,Javascript,CSS,Bulma,NASA API,Wiki API
+
 
 ## Collaborators
 Front end developers:
